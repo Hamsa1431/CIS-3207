@@ -1,0 +1,65 @@
+I have used the data in my config.txt file for the program to read the values. I got no errors while compiling and running the simulator. I tried running it with
+ different values changing in the config file. The different runs obtained different seed values and each run gave me random timing for the jobs and number of jobs being processed too. 
+But after some runs, I kept getting same number of jobs and same timings but still took different seed values.
+
+Reading file config.txt...
+0. Read: SEED 11164080
+1. Read: INIT_TIME 0
+2. Read: FIN_TIME 1000
+3. Read: ARRIVE_MIN 10
+4. Read: ARRIVE_MAX 30
+5. Read: QUIT_PROB 2
+6. Read: CPU_MIN 2
+7. Read: CPU_MAX 5
+8. Read: DISK_1_MIN 100
+9. Read: DISK_1_MAX 200
+10. Read: DISK_2_MIN 150
+11. Read: DISK_2_MAX 300
+12. Read: NET_MIN 150
+13. Read: NET_MAX 300
+File reading complete.
+At time 0     Job1       arrives
+At time 0       job1   begins at CPU
+At time 4     Job2       arrives
+
+
+Reading file config.txt...
+0. Read: SEED 11033008
+1. Read: INIT_TIME 0
+2. Read: FIN_TIME 10000
+3. Read: ARRIVE_MIN 15
+4. Read: ARRIVE_MAX 30
+5. Read: QUIT_PROB 20
+6. Read: CPU_MIN 1
+7. Read: CPU_MAX 5
+8. Read: DISK_1_MIN 100
+9. Read: DISK_1_MAX 200
+10. Read: DISK_2_MIN 150
+11. Read: DISK_2_MAX 300
+12. Read: NET_MIN 150
+13. Read: NET_MAX 300
+File reading complete.
+At time 0     Job1       arrives
+At time 0       job1   begins at CPU
+At time 1     Job2       arrives
+
+Reading file config.txt...
+0. Read: SEED 7231920
+1. Read: INIT_TIME 20
+2. Read: FIN_TIME 10000
+3. Read: ARRIVE_MIN 15
+4. Read: ARRIVE_MAX 300
+5. Read: QUIT_PROB 0
+6. Read: .1 1196379136
+7. Read: CPU_MIN 1
+8. Read: CPU_MAX 5
+9. Read: DISK_1_MIN 100
+10. Read: DISK_1_MAX 200
+11. Read: DISK_2_MIN 150
+12. Read: DISK_2_MAX 300
+13. Read: NET_MIN 150
+14. Read: NET_MAX 300
+File reading complete.
+At time 0     Job1       arrives
+Invalid inputAt time 0       job1   begins at CPU
+Invalid inputAt time 100000 Job0       arrives

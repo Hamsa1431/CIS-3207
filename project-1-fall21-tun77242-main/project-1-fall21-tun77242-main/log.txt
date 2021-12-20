@@ -1,0 +1,5 @@
+At time 0       Job1   arrives
+At time 0       job1   begins at CPU
+At time 60      Job2   arrives
+At time 63      job1   finishes at CPU
+At time 63      job2   begins at CPU
